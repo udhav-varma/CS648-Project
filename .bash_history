@@ -137,3 +137,39 @@ manim-slides convert BasicExample slides.html
 manim example.py
 manim-slides convert ConvertExample slides.html
 exit
+manim present.py
+exit
+ls
+manim-slides kruskal.py
+manim-slides render kruskal.py
+code run.sh
+ls
+chmod +x run.sh
+./run.sh
+./run.sh
+clear
+manim-slides convert Kruskal kruskal.html
+manim-slides render kruskal
+manim-slides render kruskal.py
+manim-slides convert Kruskal kruskal.html
+manim-slides render kruskal.py
+exit
+clear
+manim present.py
+clear
+manim present.py
+manim present.py
+manim-slides export -h
+manim-slides export
+manim-slides export Present intro.html
+manim-slides export intro.html Present
+manim-slides export Present
+clear
+ls
+manim-slides convert Present present.html
+manim-slides render present.py
+manim-slides convert Present present.html
+manim-slides render kruskal.py
+manim-slides render kruskal.py
+./run.sh
+exit
